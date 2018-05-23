@@ -1,0 +1,20 @@
+{
+  "name": "mostly",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "Patrick Rogers"
+  },
+  "maintainers": ["Patrick Rogers <patrick@donotforget.xyz>"],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "fluture": "^8.0.2",
+    "folktale": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.4"
+  }
+}
