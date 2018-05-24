@@ -5,14 +5,18 @@
   "author": {
     "name": "Patrick Rogers"
   },
-  "maintainers": ["Patrick Rogers <patrick@donotforget.xyz>"],
+  "maintainers": [
+    "Patrick Rogers <patrick@donotforget.xyz>"
+  ],
   "license": "MIT",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^5.0.1",
     "fluture": "^8.0.2",
-    "folktale": "^2.1.0"
+    "folktale": "^2.1.0",
+    "immutable": "^3.8.2",
+    "immutable-ext": "^1.1.5"
   },
   "devDependencies": {
     "jest": "^22.4.4"

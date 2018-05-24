@@ -10,4 +10,9 @@ const getProp = (...path) => obj => {
   );
 };
 
-module.exports = { getProp, resultToFuture };
+const inspect = x => {
+  console.log(x);
+  return x;
+};
+
+module.exports = { getProp, resultToFuture, inspect };
