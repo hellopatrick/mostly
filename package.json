@@ -5,11 +5,12 @@
   "author": {
     "name": "Patrick Rogers"
   },
-  "maintainers": [
-    "Patrick Rogers <patrick@donotforget.xyz>"
-  ],
+  "maintainers": ["Patrick Rogers <patrick@donotforget.xyz>"],
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^5.0.1",
@@ -19,6 +20,12 @@
     "immutable-ext": "^1.1.5"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-node": "^6.0.1",
     "jest": "^22.4.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }

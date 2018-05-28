@@ -1,8 +1,5 @@
-const Result = require("folktale/result");
-const Future = require("fluture");
-
 const { client } = require("./spotify/auth");
-const { getProp, resultToFuture, map } = require("./utils");
+const { getProp, resultToFuture } = require("./utils");
 
 const findArtist = name =>
   client
